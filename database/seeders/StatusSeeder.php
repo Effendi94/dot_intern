@@ -14,6 +14,7 @@ class StatusSeeder extends Seeder
      */
     public function run()
     {
+        Status::truncate();
         $statuses = [
             [
                 'code' => '00',
