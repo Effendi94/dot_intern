@@ -29,6 +29,8 @@ class ProductFactory extends Factory
             'stok' => 20,
             'discount_id' => $discId,
             'updated_by' => $admId,
+            'created_at' => now(),
+            'updated_at' => now(),
         ];
     }
 

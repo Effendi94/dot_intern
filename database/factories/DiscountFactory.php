@@ -17,10 +17,6 @@ class DiscountFactory extends Factory
     {
         $persen = $this->generateRandomNumber(5, 30, 5);
         $amount = $this->generateRandomNumber(10000, 100000, 10000);
-        return $this->state([
-            'discount_persen' => $persen,
-            'discount_max' => $amount,
-        ]);
 
         return [
             'name' => 'PROMO EXAMPLE',
@@ -28,6 +24,8 @@ class DiscountFactory extends Factory
             'discount_persen' => $persen,
             'discount_max' => $amount,
             'status_code' => 8,
+            'created_at' => now(),
+            'updated_at' => now(),
         ];
     }
 

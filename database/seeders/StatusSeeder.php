@@ -15,63 +15,90 @@ class StatusSeeder extends Seeder
     public function run()
     {
         Status::truncate();
-
         $statuses = [
             [
                 'code' => 0,
-                'name' => 'Cancel'
+                'name' => 'Cancel',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 1,
-                'name' => 'Pending'
+                'name' => 'Pending',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 2,
-                'name' => 'On Progress'
+                'name' => 'On Progress',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 3,
-                'name' => 'Complete'
+                'name' => 'Complete',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 4,
-                'name' => 'Approved'
+                'name' => 'Approved',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 5,
-                'name' => 'Declined'
+                'name' => 'Declined',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 6,
-                'name' => 'Blocked'
+                'name' => 'Blocked',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 7,
-                'name' => 'Refund'
+                'name' => 'Refund',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 8,
-                'name' => 'Active'
+                'name' => 'Active',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 9,
-                'name' => 'Used'
+                'name' => 'Used',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 10,
-                'name' => 'New'
+                'name' => 'New',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 11,
-                'name' => 'Upgrade'
+                'name' => 'Upgrade',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 12,
-                'name' => 'Request'
+                'name' => 'Request',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'code' => 14,
-                'name' => 'Expired'
+                'name' => 'Expired',
+                'created_at' => now(),
+                'updated_at' => now(),
             ],
         ];
 

@@ -23,6 +23,8 @@ class AdminFactory extends Factory
             'password' => '$2a$12$Iyjq0sUsK.D.u1xE4ER3xeAb1YkjSvpqD0sU/OLxmx3vLyN5Gcp.2', // password
             'status_code' => 8,
             'remember_token' => Str::random(10),
+            'created_at' => now(),
+            'updated_at' => now(),
         ];
     }
 }
