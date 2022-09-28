@@ -17,7 +17,7 @@ class CreateCustomersTable extends Migration
             $table->id();
             $table->string('full_name');
             $table->string('email');
-            $table->unsignedTinyInteger('status_code');
+            $table->string('status_code', 2);
             $table->timestamps();
 
             $table->foreign('status_code')->references('code')->on('status');

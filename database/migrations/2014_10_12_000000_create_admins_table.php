@@ -19,7 +19,7 @@ class CreateAdminsTable extends Migration
             $table->string('username')->unique();
             $table->string('email')->unique();
             $table->string('password');
-            $table->unsignedTinyInteger('status_code');
+            $table->string('status_code', 2);
             $table->rememberToken();
             $table->timestamps();
 
