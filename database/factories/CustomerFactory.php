@@ -19,7 +19,7 @@ class CustomerFactory extends Factory
         return [
             'full_name' => $this->faker->name(),
             'email' => $this->faker->unique()->safeEmail(),
-            'status_code' => 8,
+            'status_code' => '08',
             'created_at' => now(),
             'updated_at' => now(),
         ];

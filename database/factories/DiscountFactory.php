@@ -24,7 +24,7 @@ class DiscountFactory extends Factory
             'desc' => 'Promo Example Description',
             'discount_persen' => $persen,
             'discount_max' => $amount,
-            'status_code' => 8,
+            'status_code' => '08',
             'created_at' => now(),
             'updated_at' => now(),
         ];

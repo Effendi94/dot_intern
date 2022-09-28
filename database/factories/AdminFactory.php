@@ -22,7 +22,7 @@ class AdminFactory extends Factory
             'username' => 'admin',
             'email' => $this->faker->unique()->safeEmail(),
             'password' => '$2a$12$Iyjq0sUsK.D.u1xE4ER3xeAb1YkjSvpqD0sU/OLxmx3vLyN5Gcp.2', // password
-            'status_code' => 8,
+            'status_code' => '08',
             'remember_token' => Str::random(10),
             'created_at' => now(),
             'updated_at' => now(),
