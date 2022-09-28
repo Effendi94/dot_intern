@@ -19,7 +19,7 @@ class ProductFactory extends Factory
     public function definition()
     {
         $price = $this->generateRandomPrice(100000, 1000000, 10000);
-        $discId = Discount::find()->all()->random()->id;
+        $discId = Discount::all()->random()->id;
         $admId = Admin::where('username', 'admin')->first()->id;
         return [
             'name' => $this->faker->name(),
